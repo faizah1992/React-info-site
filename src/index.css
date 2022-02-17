@@ -40,6 +40,10 @@ nav{
 main {
   padding: 57px 27px;
   color: white;
+  background-image: url(./images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  background-size: 15%;
 }
 
 .main--title {
@@ -56,4 +60,9 @@ main {
 .main--facts > li {
   line-height: 19px;
   padding-block: 10px;
+}
+
+.main--facts > li::marker {
+    color: #61DAFB;
+    font-size: 1.8rem;
 }
